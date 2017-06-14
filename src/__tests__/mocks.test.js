@@ -1,4 +1,4 @@
-import { forEach } from './mocks';
+import { forEach } from '../mocks';
 
 test('forEach', () => {
   const mockCallback = jest.fn();

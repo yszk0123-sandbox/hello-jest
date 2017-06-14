@@ -4,7 +4,7 @@ import {
   User,
   addUser,
   getUsers,
-} from './hooks';
+} from '../hooks';
 
 beforeEach(async () => {
   await initializeDatabase();
